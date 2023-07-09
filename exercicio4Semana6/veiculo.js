@@ -22,4 +22,7 @@ Crie um objeto da classe Carro e exiba no console as informações detalhadas do
     constructor(marca,ano,portas){
     super(marca,ano)
     this.portas=portas}
+    obterDetalhes(){
+        console.log(`Veiculo marca ${this.marca}, do ano ${this.ano}, tem ${this.portas} portas.`)
+    }
 }
