@@ -1,7 +1,5 @@
-/*Crie uma classe chamada Carro que herde da classe Veiculo. Adicione à classe Carro
- a propriedade adicional portas (number).
 
-Crie um método na classe Veiculo chamado obterDetalhes, que retorna uma string com as 
+/*Crie um método na classe Veiculo chamado obterDetalhes, que retorna uma string com as 
 informações do veículo (marca e ano).
 
 Crie um método na classe Carro chamado obterDetalhes, que sobrescreve o método na classe Veiculo
@@ -14,6 +12,9 @@ Crie um objeto da classe Carro e exiba no console as informações detalhadas do
     constructor(marca,ano){
         this.marca=marca;
         thie.ano=ano;
+    }
+    obterDetalhes(){
+        console.log(`Veiculo marca ${this.marca}, do ano ${this.ano}.`)
     }
  }
 
