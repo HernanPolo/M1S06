@@ -20,4 +20,6 @@ const mediaAluno = alunos.map(aluno => {
       media: media
     };
   });
-  console.log(mediaAluno)
+  //console.log(mediaAluno)
+  let mediaOrdenada = mediaAluno.sort((a,b)=> b.media-a.media)
+ return console.log(mediaOrdenada)
