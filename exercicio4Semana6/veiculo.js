@@ -18,7 +18,7 @@ Crie um objeto da classe Carro e exiba no console as informações detalhadas do
  }
 
  class Carro extends Veiculo{
-    constructor(marca,ano,puertas){
+    constructor(marca,ano,portas){
     super(marca,ano)
-    this.puerta=puerta}
+    this.portas=portas}
 }
